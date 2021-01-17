@@ -6,6 +6,7 @@ Space Invaders
 The emulator passes the following tests:
 - [x] 8080PRE.COM 
 - Preliminary test for 8080/8085 CPU Exerciser by Ian Bartholomew and Frank Cringles
+
 ![](screenshots/8080PRE.PNG)
 - [x] TST8080.COM 
 - 8080/8085 CPU Diagnostic, version 1.0, by Microcosm Associates
