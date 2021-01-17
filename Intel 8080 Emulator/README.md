@@ -13,11 +13,11 @@ The emulator passes the following tests:
 
 ![](screenshots/TST8080.PNG)
 - [x] CPUTEST.COM
-- 8080/8085 CPU Exerciser by Ian Bartholomew and Frank Cringles. This is a very thorough test that generates a CRC code for each group of tests. The test compares the reported CRC with results from tests against real silicon. This test takes several hours to complete, if ran at the i8080's standard clock of 2MHz, but this test like others where run on a AMD Ryzen 3900x 4.4 GHz CPU, making the test only take 4 minutes. 
+- SuperSoft Associates CPU test from the Diagnostic II suite. When it displays "ABCDEF..." those are actually indications of test that have passed. Additional testing occurs during the "Begin Timing Test" and "End Timing Test" period.
 
 ![](screenshots/CPUTEST.PNG)
 - [x] 8080EXM.COM
-- SuperSoft Associates CPU test from the Diagnostic II suite. When it displays "ABCDEF..." those are actually indications of test that have passed. Additional testing occurs during the "Begin Timing Test" and "End Timing Test" period. 
+- 8080/8085 CPU Exerciser by Ian Bartholomew and Frank Cringles. This is a very thorough test that generates a CRC code for each group of tests. The test compares the reported CRC with results from tests against real silicon. This test takes several hours to complete, if ran at the i8080's standard clock of 2MHz, but this test like others where run on a AMD Ryzen 3900x 4.4 GHz CPU, making the test only take 4 minutes. 
 
 ![](screenshots/8080EXM.PNG)
 
