@@ -1,5 +1,5 @@
 # Intel 8080
-Written in C++20, the goal of this project is to completely emulate every aspect of the Intel 8080 CPU, with the ultimate goal of using this chip to emulate one of the highest grossing and most influential video games of all time: 
+Written in C++20, this emulator emulates every aspect of the Intel 8080 processor, this chip was the brains behind many arcade games back in the day and it was most notably used in one of the highest grossing and most influential video games of all time: 
 Space Invaders
 
 ### Test ROM results
@@ -23,6 +23,3 @@ The emulator passes the following tests:
 
 ### Excel File
 Custom file I made to keep track of all the instructions that the chip supports, the file shows the break down of the instructions and how the bits are organized and correlate with one another, this allowed me to  break up instructions to their significant bits and organize my code in such a way that is unique and no other emulator, I found, does it this way.
-
-### Next Steps
-Begin researching Space Invaders and the custom hardware made specifically for the game and begin emulating it, as well as flesh out the Intel 8080 emulator to support interrupts and its I/O capabilities.
