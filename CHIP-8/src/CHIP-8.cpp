@@ -7,42 +7,12 @@
 #include <string>
 #include <ctime>
 #include "SDL.h"
-#include "GLFW/glfw3.h"
 
 #include "CPU.h"
 
 using namespace std;
 
-int main() {
-	glfwInit();
-	GLFWwindow* window = glfwCreateWindow(480, 480, "win", NULL, NULL);
-	if (!window) {
-		glfwTerminate();
-		return 0;
-	}
-	glfwMakeContextCurrent(window);
-	glfwSwapInterval(1);
-	while (!glfwWindowShouldClose(window)) {
-		float ratio;
-		int width, height;
-		glfwGetFramebufferSize(window, &width, &height);
-		ratio = width / (float)height;
-		glViewport(0, 0, width, height);
-		glClear(GL_COLOR_BUFFER_BIT);
-
-		glBegin(gl_trian);
-
-		glEnd();
-
-		glfwSwapBuffers(window);
-		glfwPollEvents();
-	}
-	glfwDestroyWindow(window);
-	glfwTerminate;
-	return  0;
-}
-
-/*int main(int argc, char* argv[])
+int main(int argc, char* argv[])
 {
 	SDL_Init(SDL_INIT_EVERYTHING);
 	SDL_Window* window;
@@ -121,4 +91,4 @@ int main() {
 		//Chip8.inputHandler();
 	}
 	return 0;
-}*/
+}
